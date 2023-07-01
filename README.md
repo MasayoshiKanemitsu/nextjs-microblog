@@ -1,3 +1,14 @@
+# マイメモ
+
+## Doc
+
+- [Udemy](https://www.udemy.com/course/nextjs-microblog-for-beginner/)
+  - https://github.com/Shin-sibainu/nextjs-blog-udemy-mod
+
+* https://alpacat.com/blog/nextjs132-metadata-api/
+
+# Next.js v13
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
