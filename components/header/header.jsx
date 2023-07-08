@@ -1,10 +1,16 @@
 //Header
 import styles from "./header.module.scss";
 
-const Header = () => {
+const Header = ({ is_show = true }) => {
   return (
     <>
-      <div className={styles.container}>Header</div>
+      {is_show ? (
+        <>
+          <div className={styles.container}>Header</div>
+        </>
+      ) : (
+        <></>
+      )}
     </>
   );
 };

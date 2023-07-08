@@ -1,4 +1,5 @@
 //fetchテスト
+import Container from "@/layout/Container";
 import Link from "next/link";
 
 export const metadata = {
@@ -16,10 +17,12 @@ const MembersList = async () => {
   const members = await getMembers();
   return (
     <>
-      <h1>ユーザー一覧</h1>
-      <ul>{members && members.map((member) => <li key={member.id}>{member.name}</li>)}</ul>
+      <Container>
+        <h1>ユーザー一覧</h1>
+        <ul>{members && members.map((member) => <li key={member.id}>{member.name}</li>)}</ul>
 
-      <Link href='/'>Homeへ</Link>
+        <Link href='/'>Homeへ</Link>
+      </Container>
     </>
   );
 };
