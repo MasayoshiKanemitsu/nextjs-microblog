@@ -7,6 +7,15 @@
 
 * https://alpacat.com/blog/nextjs132-metadata-api/
 
+## Server Component と Client Component（ざっくり）
+
+- Server Component  
+  Next.js が情報を取得し、生成前にあらかじめ表示されているもの。  
+  ブログなど API で情報を取得し、静的に描画。プリレンダリング。
+
+- Client Component  
+  ボタンを押して何かをするなど、ユーザーが見ているブラウザで何かを制御するもの。
+
 # Next.js v13
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
