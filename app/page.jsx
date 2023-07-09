@@ -9,7 +9,14 @@ const Home = ({ allPostsData }) => {
       <Container>
         <p>hello</p>
         <div>
-          <Link href='/test'>Fetch Test</Link>
+          <ul>
+            <li>
+              <Link href='/test'>Fetch Test</Link>
+            </li>
+            <li>
+              <Link href='/swiper'>Swiper Test</Link>
+            </li>
+          </ul>
         </div>
 
         <Image src='/img_vader.jpg' alt='vader' width={100} height={100}></Image>
