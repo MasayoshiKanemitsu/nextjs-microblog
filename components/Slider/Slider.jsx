@@ -1,6 +1,5 @@
-"use client"; //この記述がいる
+"use client";
 
-// import { autoPlay } from "swiper/modules";
 import { Navigation, Autoplay, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../node_modules/swiper/swiper.min.css";
